@@ -59,6 +59,7 @@ namespace ConsoleApp3
             //command.CommandText = "select * from products; select * from customers;";
             command.CommandText = "select * from products";
             rdr = command.ExecuteReader();
+            int x = 0;
             int line = 0;
             //do {
                 while (rdr.Read())
